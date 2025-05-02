@@ -1,0 +1,56 @@
+# Dependências
+node_modules/
+.pnp/
+.pnp.js
+
+# Ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+dist/
+build/
+out/
+
+# Banco de dados
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testes
+coverage/
+
+# Configurações do Servidor
+PORT=3000
+NODE_ENV=development
+
+# Configurações do Banco de Dados
+DB_TYPE=sqlite
+DB_DATABASE=mealplanner.db
+
+# Configurações de Autenticação
+JWT_SECRET=seu_jwt_secret_aqui
+
+# Configurações da API Spoonacular
+SPOONACULAR_API_KEY=8e6bf38c9e5b4fffa66a5a4d98960ddd
